@@ -98,7 +98,8 @@ public class MainActivity extends ActionBarActivity implements AbsListView.OnScr
     private ArrayList<String> generateData() {
         ArrayList<String> listData = new ArrayList<String>();
 
-
+        Toast.makeText(getApplicationContext(), "More Loading...", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "More Loading...", Toast.LENGTH_SHORT).show();
         listData.add("http://imageshack.com/a/img743/2009/f1WUYk.jpg");
         listData.add("http://imageshack.com/a/img537/5299/jXkVNF.jpg");
         listData.add("http://imageshack.com/a/img537/7525/UNLZy0.jpg");

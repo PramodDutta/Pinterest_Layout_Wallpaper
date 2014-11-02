@@ -21,6 +21,7 @@ public class SplashScreen extends Activity {
         // Handler to run Main activity
         setContentView(R.layout.activity_splashscreen);
         Toast.makeText(getApplicationContext(), "Loading...", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "More Loading...", Toast.LENGTH_SHORT).show();
         new Handler().postDelayed(new Runnable() {
 
             /*
